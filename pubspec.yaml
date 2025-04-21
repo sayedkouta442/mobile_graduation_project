@@ -1,0 +1,33 @@
+name: mobile_graduation_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.12.1
+  geolocator: ^13.0.4
+  custom_info_window: ^1.0.1
+  shared_preferences: ^2.5.3
+  # for openStreetMap
+  http: ^1.3.0
+  latlong2: ^0.9.1
+  flutter_map: ^8.1.1
+  flutter_map_location_marker: ^10.0.2
+  location: ^8.0.0
+  flutter_polyline_points: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
